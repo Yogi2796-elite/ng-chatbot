@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ng-chatbot
+  annotations:
+    github.com/project-slug: Yogi2796-elite/ng-chatbot
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
