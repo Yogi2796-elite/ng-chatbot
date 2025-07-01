@@ -8,3 +8,6 @@ spec:
   type: other
   lifecycle: unknown
   owner: guests
+  subcomponentOf: bs-test4
+  implementsApis:
+    - url: https://github.com/Yogi2796-elite/bs-test4/blob/main/catalog-info.yaml
