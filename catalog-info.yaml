@@ -1,13 +1,8 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Location
 metadata:
-  name: ng-chatbot
-  annotations:
-    github.com/project-slug: Yogi2796-elite/ng-chatbot
+  name: parent-location
 spec:
-  type: other
-  lifecycle: unknown
-  owner: guests
-  subcomponentOf: bs-test4
-  implementsApis:
-    - url: https://github.com/Yogi2796-elite/bs-test4/blob/main/catalog-info.yaml
+  targets:
+    - https://github.com/org/repo-1/blob/main/catalog-info.yaml
+    - https://github.com/org/repo-2/blob/main/catalog-info.yaml
