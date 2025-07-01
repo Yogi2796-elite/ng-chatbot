@@ -4,5 +4,5 @@ metadata:
   name: parent-location
 spec:
   targets:
-    - https://github.com/org/repo-1/blob/main/catalog-info.yaml
-    - https://github.com/org/repo-2/blob/main/catalog-info.yaml
+    - https://github.com/Yogi2796-elite/ng-chatbot/blob/main/parent.yaml
+    - https://github.com/Yogi2796-elite/bs-test4/blob/main/child.yaml
