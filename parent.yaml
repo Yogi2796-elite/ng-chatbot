@@ -4,6 +4,8 @@ kind: Component
 metadata:
   name: parent-service
   description: This is the parent service
+  annotations:
+    my-org.com/custom-key: custom-value
 spec:
   type: service
   lifecycle: production
