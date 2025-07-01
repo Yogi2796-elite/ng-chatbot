@@ -1,0 +1,12 @@
+# repo-1/catalog-info.yaml (parent)
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parent-service
+  description: This is the parent service
+spec:
+  type: service
+  lifecycle: production
+  owner: team-a
+  subcomponents:
+    - child-service
